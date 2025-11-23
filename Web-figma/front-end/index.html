@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web → Figma Converter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Web → Figma Converter</h1>
+    <p>Convierte cualquier página web en un archivo editable para importar en Figma.</p>
+
+    <label for="url">URL del sitio</label>
+    <input type="url" id="url" placeholder="https://example.com" required>
+
+    <label for="depth">Nivel de profundidad</label>
+    <select id="depth">
+      <option value="shallow">Superficial</option>
+      <option value="balanced" selected>Equilibrado</option>
+      <option value="deep">Profundo</option>
+    </select>
+
+    <button id="convert">Convertir y descargar</button>
+
+    <div id="status"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

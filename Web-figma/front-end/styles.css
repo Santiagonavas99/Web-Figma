@@ -1,0 +1,53 @@
+body {
+    font-family: system-ui, sans-serif;
+    background: #f9fafb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+input,
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #111827;
+    color: white;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    font-weight: 600;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+#status {
+    margin-top: 1rem;
+    color: #1e40af;
+}

@@ -1,0 +1,13 @@
+{
+    "name": "web-to-figma-converter",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "start": "node server/server.js"
+    },
+    "dependencies": {
+        "express": "^4.19.2",
+        "cors": "^2.8.5",
+        "playwright": "^1.48.0"
+    }
+}
