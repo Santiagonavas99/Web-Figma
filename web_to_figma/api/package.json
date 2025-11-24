@@ -1,1 +1,0 @@
-{ "name":"web-to-figma-converter","private":true,"type":"module","scripts":{"start":"node api/extract.js"},"dependencies":{"playwright-core":"^1.48.0"}}
