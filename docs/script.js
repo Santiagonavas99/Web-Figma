@@ -1,6 +1,8 @@
 const button = document.getElementById("convert");
 const status = document.getElementById("status");
-const API_URL = "https://web-figma-six.vercel.app/api/extract";
+// Cambia este endpoint si Vercel asigna un nuevo dominio a tu API
+const API_URL =
+  "https://web-figma-6punofy56-santis-projects-e614235b.vercel.app/api/extract";
 
 button.addEventListener("click", async () => {
   const url = document.getElementById("url").value;
